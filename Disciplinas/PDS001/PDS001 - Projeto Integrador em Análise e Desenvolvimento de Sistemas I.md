@@ -15,6 +15,8 @@
 
 # 🧠 Grupo: _PentaCore DT_
 
+![[Pasted image 20260227195930.png]]
+
 | Aluno                               | Email                        | No grupo |
 | ----------------------------------- | ---------------------------- | :------: |
 | Cesar Augusto Watanabe Dainezi      | cesardainezi@gmail.com       |    ✔     |
@@ -23,7 +25,10 @@
 | Vinicius Henrique Da Silva Malvezzi | viniciusmalvezzi@gmail.com   |    ✔     |
 | Vitor Reis                          | vitorrei1276@gmail.com       |    ✔     |
 
+#### Link do Trello: https://trello.com/b/h0Xd87yr/pentacorepi1-noite
+
 --- 
+
 
 # 📓 Conteúdo de aula
 
