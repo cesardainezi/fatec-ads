@@ -46,13 +46,13 @@
 
 #### Integrantes:
 
-| Aluno | Email | No grupo | 
-| ----- | ----- | :-----: |
-| Cesar Dainezi | cesardainezi@gmail.com | ✔ |
-| Jonivan da Silva Oliveira | - | ❌ |
-| Luiz Henrique Araujo Colares | xuria56@gmail.com | ✔ |
-| Matheus Moraes de Oliveira | - | ✔ | 
-| Pedro Henrique dos Santos Amaral | - | ❌ |
-| Robson Diego Fernandes Rocha | robson.diego.rocha@gmail.com | ✔ |
-| Vitor da Silva Caetano | - | ❌ |
-| Eusébio Leite | eusebio.leite16@gmail.com | ✔ |
+| Aluno                            | Email                        | No grupo |     |
+| -------------------------------- | ---------------------------- | :------: | --- |
+| Cesar Dainezi                    | cesardainezi@gmail.com       |    ✔     |     |
+| Jonivan da Silva Oliveira        | -                            |    ❌     |     |
+| Luiz Henrique Araujo Colares     | xuria56@gmail.com            |    ✔     |     |
+| Matheus Moraes de Oliveira       | moraes.business0@gmail.com   |    ✔     |     |
+| Pedro Henrique dos Santos Amaral | -                            |    ❌     |     |
+| Robson Diego Fernandes Rocha     | robson.diego.rocha@gmail.com |    ✔     |     |
+| Vitor da Silva Caetano           | -                            |    ❌     |     |
+| Eusébio Leite                    | eusebio.leite16@gmail.com    |    ✔     |     |
