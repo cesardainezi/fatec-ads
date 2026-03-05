@@ -67,57 +67,61 @@
 
 **7. Qual a grande diferença entre sistemas monoprogramáveis e sistemas multiprogramáveis?**
 
-> Um sistema monoprogramável mantém um único programa em execução por vez, de forma que, durante operações de entrada e saída, a unidade de processamento permanece ociosa. Em sistemas multiprogramáveis, ocorre a execução concorrente de vários programas, diminuindo a subutilização de recursos e possibilitando o maior aproveitamento da UCP.
+> _Um sistema monoprogramável mantém um único programa em execução por vez, de forma que, durante operações de entrada e saída, a unidade de processamento permanece ociosa. Em sistemas multiprogramáveis, ocorre a execução concorrente de vários programas, diminuindo a subutilização de recursos e possibilitando o maior aproveitamento da UCP._
 
 **8. Quais as vantagens dos sistemas multiprogramáveis?**
 
-> A principal vantagem dos sistemas multiprogramáveis é o melhor aproveitamento dos recursos do sistema, o que efetivamente diminui os custos de execução em função à. Este tipo de sistema também permite a redução do tempo médio de execução das aplicações, já que uma aplicação não precisa esperar outra encerrar para começar a utilizar recursos.
+> _A principal vantagem dos sistemas multiprogramáveis é o melhor aproveitamento dos recursos do sistema, o que efetivamente diminui os custos de execução em função à. Este tipo de sistema também permite a redução do tempo médio de execução das aplicações, já que uma aplicação não precisa esperar outra encerrar para começar a utilizar recursos._
 
 **9. Um sistema monousuário pode ser um sistema multiprogramável? Dê um exemplo.**
 
-> Sim. Um exemplo é um sistema operacional para computadores pessoais e estações de trabalho, onde há um único usuário interagindo.1
+> _Sim. Um exemplo é um sistema operacional para computadores pessoais e estações de trabalho, onde há um único usuário interagindo._
 
 **10. Quais os tipos de sistemas multiprogramáveis?**
 
-> _Resposta_
+> _Os sistemas multiprogramáveis são: **sistema batch**, **sistema de tempo compartilhado** e **sistemas de tempo real**._
 
 **11. O que caracteriza o processamento batch? Quais aplicações podem ser processadas neste tipo de ambiente?**
 
-> _Resposta_
+> _O **processamento batch** tem característica de não exigir a iteração do usuário com a aplicação. Neste ambiente podem ser processadas aplicações que exigem cálculo numérico, compilações, ordenações, backups e todos aqueles onde não é necessária a iteração com o usuário._
 
 **12. Como funcionam os sistemas de tempo compartilhado? Quais as vantagens em utilizá-los?**
 
-> _Resposta_
+> _Os **sistemas de tempo compartilhado** permitem que diversos programas sejam executados a partir da divisão do tempo de uso do processador em pequenos intervalos, denominados **fatias de tempo** (time-slice). Se um programa não termina de executar dentro de uma fatia de tempo, ele é substituído por outro programa e fica aguardando uma nova fatia para continuar sua execução. A vantagem deste sistema é permitir a iteração do usuário com o sistema através de terminais que incluem vídeo, mouse e teclado._
 
 **13. Qual a grande diferença entre sistemas de tempo compartilhado e tempo real? Quais aplicações são indicadas para sistemas de tempo real?**
 
-> _Resposta_
+> _Os **sistemas de tempo real** não utilizam a ideia de fatia de tempo, implementando limites rígidos de tempo de processamento. Desta forma, um programa utiliza o processador o tempo que for necessário para sua conclusão ou até que apareça outro programa de maior prioridade. Este tipo de sistema é indicado para aplicações críticas, como monitoramento de refinarias de petróleo, controle de tráfego aéreo, usinas termelétricas e nucleares, ou qualquer aplicação onde o tempo de processamento seja fator fundamental._ 
 
 **14. O que são sistemas com múltiplos processadores e quais as vantagens em utilizá-los?**
 
-> _Resposta_
+> _São sistemas que possuem duas ou mais unidades de processamentos interligadas e trabalhando em conjunto. Este tipo de sistema trás os mesmos benefícios encontrados na multiprogramação além de escalabilidade, disponibilidade e balanceamento de carga._
 
 **15. Qual a grande diferença entre sistemas fortemente acoplados e fracamente acoplados?**
 
-> _Resposta_
+> _Os **sistemas fortemente acoplados** compartilham uma mesma memória física e dispositivos de entrada e saída, e são gerenciados por um mesmo sistema operacional. Já os **sistemas fracamente acoplados** são sistemas independentes conectados por uma linha de comunicação._
 
 **16. O que é um sistema SMP? Qual a diferença para um sistema assimétrico?**
 
-> _Resposta_
+> _O **sistema SMP** (Symmetric Multiprocessors) é um sistema fortemente acoplado que se caracteria pelo tempo uniforme de acesso à memória principal pelos diversos processadores. Em comparação a um **sistema assimétrico** (NUMA — Non-Uniform Memory Access), este possui tempo de acesso à memória variável com relação à sua localização física._
 
 **17. O que é um sistema fracamente acoplado? Qual a diferença entre sistemas operacionais de rede e sistemas operacionais distribuídos?**
 
-> _Resposta_
+> _Os **sistemas fracamente acoplados** são sistemas independentes conectados por uma linha de comunicação. Cada sistema funciona de forma independente possuindo seu próprio sistema operacional e seus próprios recursos. Dentro desta categoria, encontram se os **sistemas operacionais de rede** (SOR), que permitem que um host compartilhe seus recursos, como impressora, diretório, etc., com os demais hosts da rede; e os **sistemas distribuídos**, em que o sistema operacional esconde os detalhes de cada host individual, tratando-os como uma única entidade. _
 
 **18. Quais os benefícios de um sistema com múltiplos processadores em um computador pessoal?**
 
-> _Resposta_
+> _Um sistema com múltiplos processadores trás benefício a qualquer aplicação que faça uso intensivo do processador e que seja paralelizável (**multithread**). Em computadores pessoais, particularmente, isto pode beneficiar a execução de jogos e aplicações de compilação, edição de vídeo, compressão, simulações, etc. Além disso, o sistema também trás benefícios à execução de múltiplas aplicações simultaneamente, o que é muito comum em computadores pessoais._
 
 **19. Qual seria o tipo de sistema operacional recomendável para uso como servidor de aplicações em um ambiente corporativo?**
 
-> _Resposta_
+> _É recomendável um sistema com as seguintes características:_
+> 
+> - _Multiprogramável, pois queremos diversas aplicações executando no servidor._
+> - _Multiusuário, pois queremos diversos usuários conectados ao servidor._
+> - _Múltiplos processadores, pois este modelo trás benefícios à execução simultânea de várias aplicações._
 
 **20. Qual seria o tipo de sistema operacional recomendável para executar uma aplicação que manipula grande volume de dados e necessita de um baixo tempo de processamento?**
 
-> _Resposta_
+> _Assumindo que tal aplicação não necessite de iteração com o usuário, um sistema batch seria suficiente, uma vez que este oferece processamento eficiente para grande volumes de dados, mantendo alta utilização da unidade de processamento._
 

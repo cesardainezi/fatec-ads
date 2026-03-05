@@ -18,12 +18,28 @@
 ---
 
 # 📓 Conteúdo de aula
-1. Bases numéricas (19/02/2026)
-   
+#### 1. Bases numéricas (19/02/2026)
+- Base binária
+#### 2. Bases numéricas (cont.) (26/02/2026)
+- Inteiros negativos em binário
+- Base octal e hexadecimal
+#### 3. Codificação de Dados (05/03/2026)
+- Binary Coded Decimal (BCD)
+#### 4. 
+
 ---
+# Listas de Exercícios
+#### [[Lista 01.pdf|Lista 01: Bases Numéricas e Codificação]]
+#### [[Lista 02.pdf|Lista 02: Portas Lógicas]]
+#### [[Lista 03.pdf|Lista 03: Lógica Digital]]
+#### [[Revisão P1-01.pdf|Revisão P1 - Conversão de Sistemas Numéricos]]
+#### [[Revisão P1-02.pdf|Revisão P1 - Circuitos Lógicos]]
+#### [[Revisão P1-03.pdf|Revisão P1 - Circuitos Digitais]]
+#### [[Revisão P1-04.pdf|Revisão P1 - Portas Lógicas]]
 
+
+---
 # 📚 Estudo extraclasse
-
 
 ---
 
